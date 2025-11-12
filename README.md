@@ -1,3 +1,7 @@
+> [!WARNING]
+> This project is outdated and will not be updated. \
+> Better options exist (like [Prism Launcher](https://prismlauncher.org/)'s built-in mod manager)
+
 # MC Mod Updater
 Application that lets you update your minecraft mods in bulk. [TODO and idea's](https://trello.com/b/aAbONtbP/mcmodupdater)
 
