@@ -1,12 +1,10 @@
-config/
-
-# Python
-venv/
-__pycache__/
-
-# Pycharm
 .idea/
+.mypy_cache/
+.ruff_cache/
+venv/
 
-# Testing
+.env
+
 testing/
-*mods.txt
+config/
+output/

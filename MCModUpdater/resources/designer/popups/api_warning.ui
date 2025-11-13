@@ -35,7 +35,7 @@
      <x>10</x>
      <y>10</y>
      <width>630</width>
-     <height>151</height>
+     <height>191</height>
     </rect>
    </property>
    <property name="font">
@@ -45,7 +45,14 @@
     </font>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;CurseForge links require an API key to get data from the website.&lt;br/&gt;Modrinth links don't need an API key.&lt;br/&gt;Skipping this step means that you won't be able to use CurseForge links&lt;/p&gt;&lt;p&gt;To get an API key, visit this link: &lt;a href=&quot;https://console.curseforge.com/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://console.curseforge.com/&lt;br/&gt;&lt;/span&gt;&lt;/a&gt;1. Login or create an account&lt;br/&gt;2. Once you're logged in, go to the tab 'API keys' and copy the key&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>This is some test data to see what it would look like.&lt;br/&gt;
+CurseForge links require an API key to get data from the website.&lt;br/&gt;
+Modrinth links don't need an API key.&lt;br/&gt;
+Skipping this step means that you won't be able to use CurseForge links.&lt;br/&gt;
+&lt;br/&gt;
+To get an API key, visit this link: &lt;a href=&quot;https://console.curseforge.com/&quot;&gt;https://console.curseforge.com/&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;
+1. Login or create an account&lt;br/&gt;
+2. Once you're logged in, go to the tab 'API keys' and copy the key&lt;br/&gt;</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
@@ -61,15 +68,17 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>190</y>
-     <width>62</width>
-     <height>23</height>
+     <y>210</y>
+     <width>51</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>Segoe UI</family>
      <pointsize>10</pointsize>
+     <bold>false</bold>
+     <underline>false</underline>
     </font>
    </property>
    <property name="text">
@@ -86,7 +95,7 @@
    <property name="geometry">
     <rect>
      <x>82</x>
-     <y>190</y>
+     <y>210</y>
      <width>551</width>
      <height>22</height>
     </rect>

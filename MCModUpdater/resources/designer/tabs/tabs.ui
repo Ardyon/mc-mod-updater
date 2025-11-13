@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TabWidget</class>
+ <widget class="QTabWidget" name="TabWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1050</width>
+    <height>725</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1050</width>
+    <height>725</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1050</width>
+    <height>725</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>TabWidget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMenuBar {
+	background-color: #2a2a2a;
+	color: #dce4ee;
+}
+
+QTabWidget #general,
+QTabWidget #search,
+QTabWidget #settings {
+	background: #1a1a1a;
+}
+QTabBar {
+	qproperty-drawBase: 0;
+	border-bottom: 1px solid #dce4ee;
+}
+QTabBar::tab {
+	min-width: 75px;
+    padding: 2px;
+	margin-top: 2px;
+    background: #3f3f3f;
+	color: #dce4ee;
+    border: 1px solid #dce4ee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+QTabBar::tab:selected, QTabBar::tab:hover {
+    background: #1a1a1a;
+}
+QTabBar::tab:selected {
+    border-bottom-color: #1a1a1a;
+}
+QTabBar::tab:!selected {
+	margin-top: 4px;
+}
+QTabBar::tab:first {
+    margin-left: 5px;
+}
+QTabBar::tab:!first {
+    margin-left: -1px;
+}</string>
+  </property>
+  <property name="currentIndex">
+   <number>0</number>
+  </property>
+  <property name="documentMode">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="general">
+   <attribute name="title">
+    <string>General</string>
+   </attribute>
+  </widget>
+  <widget class="QWidget" name="search">
+   <attribute name="title">
+    <string>Search</string>
+   </attribute>
+  </widget>
+  <widget class="QWidget" name="settings">
+   <attribute name="title">
+    <string>Settings</string>
+   </attribute>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

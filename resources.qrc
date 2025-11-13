@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="icons">
+    <file alias="checkmark.png">MCModUpdater/resources/icons/checkmark.png</file>
+    <file alias="no-icon.png">MCModUpdater/resources/icons/no-icon.png</file>
+    <file alias="plus.png">MCModUpdater/resources/icons/plus.png</file>
+    <file alias="trash.png">MCModUpdater/resources/icons/trash.png</file>
+  </qresource>
+  <qresource prefix="logo">
+    <file alias="logo.ico">MCModUpdater/resources/logo/mc_mod_updater_icon.ico</file>
+  </qresource>
+</RCC>
